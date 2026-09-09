@@ -8,6 +8,10 @@ permissions:
   contents: read
   pull-requests: read
 
+engine:
+  id: copilot
+  model: auto
+
 tools:
   github:
     toolsets: [repos]
