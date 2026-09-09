@@ -19,6 +19,8 @@ Precedence: repository overlay instructions override defaults in this agent when
 
 This is a **dispatcher agent** that routes your request to the appropriate specialized prompt based on your task:
 
+When creating or editing agentic workflow files, do not compile them. Only create or update the Markdown workflow file.
+
 - **Creating new workflows**: Routes to `create` prompt
 - **Updating existing workflows**: Routes to `update` prompt
 - **Debugging workflows**: Routes to `debug` prompt
